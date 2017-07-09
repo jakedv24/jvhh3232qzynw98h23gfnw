@@ -3,6 +3,17 @@
 <head>
 <title>Corpys</title>
 <style>
+
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+	
 .button1 {  
 	background-color: white;
     border: 2px solid #21EEBE;
@@ -20,12 +31,22 @@
 	top: 1.5%;
 	right: 11%;
 	font-family:arial;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
 }
+
+.button1:hover {
+	background-color: #21EEBE;
+    border: 2px solid #21EEBE;
+    color: white;
+	text-color: white;
+}
+
 .button2 {
 	background-color: #21EEBE;
-    border: none;
+    border: 2px solid #21EEBE;
     color: white;
-    padding: 15px 32px;
+    padding: 13px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -37,49 +58,52 @@
 	top: 1.5%;
 	right: 1%;
 	font-family: arial;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button2:hover {
+	background-color: white;
+    border: 2px solid #21EEBE;
+    color: #21EEBE;
+	text-color: #21EEBE;
 }
 
 .header1 {
-	height : 60px;
+	height : 75px;
 	background : #F7F6F7;
 	width : 100%;
 	margin-top: 0;
 	margin-bottom: 3px;
-	position: fixed;
 }
 .header2 {
 	height: 45px;
 	background: #F7F6F7;
 	width: 100%;
-	margin-bottom: 60px;
+	margin-bottom: 0px;
 }
 .logo {
 	top: 1.5%;
 	left: 15%;
-	size: 35%;
-}
-.steps {
-	margin-bottom: 55px;
-	color: grey;
-	text-align: center;
-	font-family:sans-serif;	
-}
-.pics {
-	width: 120px;
-	height:90px;
-	margin-left:45%;
-	margin-bottom:55px;
+	size: 15%;
+	
+.footer {
+	width: 100%;
+	height: 100px;
+	background: black;
+	
 }
 </style>
 </head>
 <body>
 <header class="header1">
-<img src="corpys.png" alt="Corpys" class="logo" >
+<img src="corpyslogo.png" alt="Corpys" class="logo" >
 <a href="login.php" class="button1">Log In</a>
 <a href="register.php" class="button2">Sign Up</a>
 </header>
 <header class="header2">
 </header>
-
+<img src="beachwallpaper.jpg" alt="background" style="opacity:.4;">
+<footer class="footer">About Us</footer>
 </body>
 </html>
