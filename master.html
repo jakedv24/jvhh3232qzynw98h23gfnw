@@ -14,6 +14,19 @@
         background: transparent;
     }
 	
+div.background {
+	background-image: url("beachwallpaper.jpg");
+
+}
+div.in_box {
+	align: center;
+	background: white;
+	opacity: .6;
+	margin: 45px;
+	height: 45px;
+	width: 60px;
+}
+	
 .button1 {  
 	background-color: white;
     border: 2px solid #21EEBE;
@@ -74,13 +87,18 @@
 	background : #F7F6F7;
 	width : 100%;
 	margin-top: 0;
-	margin-bottom: 3px;
+	margin-bottom: 0px;
+}
+.headerbreak {
+	height : 3px;
+	background: white;
 }
 .header2 {
-	height: 45px;
+	height: 25px;
 	background: #F7F6F7;
-	width: 100%;
+	width: 90%%;
 	margin-bottom: 0px;
+	text-color: #21EEBE;
 }
 .logo {
 	top: 1.5%;
@@ -90,20 +108,25 @@
 .footer {
 	width: 100%;
 	height: 100px;
-	background: black;
+	color: black;
 	
 }
 </style>
 </head>
 <body>
 <header class="header1">
-<img src="corpyslogo.png" alt="Corpys" class="logo" >
+<a href="corpys.php">
+<img src="corpyslogo.png" alt="Corpys" class="logo">
+</a>
 <a href="login.php" class="button1">Log In</a>
 <a href="register.php" class="button2">Sign Up</a>
 </header>
-<header class="header2">
-</header>
-<img src="beachwallpaper.jpg" alt="background" style="opacity:.4;">
+<header class="headerbreak"></header>
+<header class="header2" style="color:#21EEBE;font-family:arial;text-align:center;padding:25px;font-size:145%">All of your subscriptions, all in one place.</header>
+<div class="background" style="opacity:.4;">
+<div class="in_box">
+</div>
+</div>
 <footer class="footer">About Us</footer>
 </body>
 </html>
