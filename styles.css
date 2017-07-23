@@ -37,7 +37,7 @@
 
 	div.paduppertext {
 		width: 100%;
-		height: 65px;
+		height: 35px;
 		background: transparent;
 	}
 		
@@ -50,7 +50,7 @@
 		text-decoration: none;
 		text-color: #21EEBE;
 		display: inline-block;
-		font-size: 16px;
+		font-size: 11px;
 		margin: auto auto;
 		cursor: pointer;
 		border-radius: 4px;
@@ -76,7 +76,7 @@
 		text-align: center;
 		text-decoration: none;
 		display: inline-block;
-		font-size: 16px;
+		font-size: 11px;
 		margin: auto;	
 		cursor: pointer;
 		border-radius: 4px;
@@ -95,7 +95,7 @@
 	}
 
 	.header1 {
-		height : 75px;
+		height : 60px;
 		background : #F7F6F7;
 		width : 100%;
 		margin-top: 0;
@@ -108,17 +108,17 @@
 	}
 
 	.header2 {
-		height: 25px;
+		height: 10px;
 		background: #F7F6F7;
-		width: 90%%;
+		width: 100%;
 		margin-bottom: 0px;
 		text-color: #21EEBE;
+		min-height:22px;
 	}
 
 	.logo {
-		top: 1%;
-		left: 15%;
-		size: 5%;
+		float:left;
+		margin: 5px 1px;
 	}	
 
 	div.footer {
