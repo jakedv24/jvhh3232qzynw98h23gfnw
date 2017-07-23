@@ -18,24 +18,24 @@
 	<body>
 		<header class="header1">
 			<ul>
-				<li class="logo" style="float:left;list-style-type:none;width:50%;">
+				<li style="float:left;list-style-type:none;width:50%;height:60px;
 					<div style="width:50%;">
 						<a href="corpys.php">
 							<img src="corpyslogo.png" alt="Corpys" class="logo">
 						</a>
 					</div>
 				</li>
-				<li style="width:50%;height:78.4px;list-style-type:none;float:left;">
-					<div style="float:right;height:75px;width:250px;">
-						<a href="login.php" class="button1" style="float:left;margin:12px 1px;">Log In</a>
-						<a href="register.php" class="button2" style="float:right;margin:12px 1px;margin-right:2%;">Sign Up</a>
+				<li style="width:50%;height:100%;list-style-type:none;float:left;">
+					<div style="float:right;height:100%;width:210px;">
+						<a href="login.php" class="button1" style="float:left;margin:8px 1px;">Log In</a>
+						<a href="register.php" class="button2" style="float:right;margin:8px 1px;margin-right:2%;">Sign Up</a>
 					</div>
 				</li>
 					
 			</ul>
 		</header>
 		<header class="headerbreak"></header>
-		<header class="header2" style="color:#21EEBE;font-family:arial;text-align:center;padding:25px;font-size:145%">All of your subscriptions, all in one place.</header>
+		<header class="header2" style="color:#21EEBE;font-family:arial;text-align:center;padding:5px 0px 5px 0px;font-size:110%">All of your subscriptions, all in one place.</header>
 		<div class="background" style="opacity:.4;">
 			<div class="paduppertext"></div>
 			<div class="textbox">
